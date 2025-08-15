@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://mrwing88.github.io/bonne-et-filou-d3284/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# SEO optimizations
+Crawl-delay: 1
